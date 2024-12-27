@@ -95,8 +95,7 @@ pub type PlaceGeneration {
 }
 
 /// external proccess for source generation
-/// that can run or through cli or while compile, 
-/// depends on parametr for attribute @generate()
+/// that can run or through cli or while compile
 pub fn main() {
   //some main stuff that may be needed for source generator
   io.println("Hello from source_generator!")
