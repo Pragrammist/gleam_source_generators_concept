@@ -1,0 +1,5 @@
+[packages]
+gleam_json = "2.2.0"
+gleam_stdlib = "0.51.0"
+gleeunit = "1.2.0"
+glormat = "1.0.0"

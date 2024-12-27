@@ -1,0 +1,8 @@
+{application, glormat, [
+    {vsn, "1.0.0"},
+    {applications, [gleam_stdlib,
+                    gleeunit]},
+    {description, "A simple, readable string formatting library for Gleam!"},
+    {modules, [glormat]},
+    {registered, []}
+]}.
