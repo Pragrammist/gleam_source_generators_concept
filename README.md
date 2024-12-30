@@ -4,13 +4,12 @@
 check src/source_generator_concept.gleam and source_generator/src/source_generator.gleam
 there's all info
 
-[![Package Version](https://img.shields.io/hexpm/v/source_generator_concept)](https://hex.pm/packages/source_generator_concept)
-[![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/source_generator_concept/)
+## What problem does it solve
+Overall, solving code bollerplate problem.
+There's bunch of problems where you need manualy write bollerplate code like for OpenApi, GRPC, Json, Yaml, Xml
 
-
-
-
-Further documentation can be found at <https://hexdocs.pm/source_generator_concept>.
+1) Whith current json lib you need mannyaly write decode logic for every field
+2) OpenApi. You need mannualy generate model data in openapi json file. You need keep track yourself openapi documentation to make type actual to your
 
 ## Development
 
